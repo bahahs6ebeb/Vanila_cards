@@ -19,7 +19,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8713347006:AAEr6z7mPLFM61FXoa-P4xLc1nBtmxnEkRU")
 PORT = int(os.environ.get("PORT", 8080))
 
 app = Flask(__name__)
